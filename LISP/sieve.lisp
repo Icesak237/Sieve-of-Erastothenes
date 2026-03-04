@@ -1,0 +1,20 @@
+(let ((n 1000)
+		(all (make-array 1001 :initial-element t)))
+	(setf (aref all 0) nil)
+	(setf (aref all 1) nil)
+	(loop for i from 2 to (floor (sqrt n)) do
+		(when (aref all i)
+			(loop for j from (* i i) to n by i do
+				(setf (aref all j) nil)
+			)
+		)
+	)
+	(princ "The following are prime number under 1000:")
+	(terpri)
+	(loop for l from 2 to n do
+		(when (aref all l)
+			(princ l)
+			(terpri)
+		)
+	)
+)
