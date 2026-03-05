@@ -41,3 +41,8 @@ apl -s --OFF -f sieve.apl
 ```bash
 gforth sieve.fs
 ```
+
+**Pascal**
+```bash
+fpc sieve.pas && ./sieve
+```
