@@ -4,7 +4,7 @@ A personal project where I implement the [Sieve of Eratosthenes](https://en.wiki
 
 **Odin**
 ```bash
-odin run main.odin
+odin run .
 ```
 
 **Fortran**
