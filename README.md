@@ -36,3 +36,8 @@ fbc sieve.bas && ./sieve
 ```bash
 apl -s --OFF -f sieve.apl
 ```
+
+**Forth**
+```bash
+gforth sieve.fs
+```
