@@ -51,3 +51,8 @@ fpc sieve.pas && ./sieve
 ```bash
 swipl -s sieve.pl
 ```
+
+**Haskell**
+```bash
+runghc sieve.hs
+```
