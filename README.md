@@ -58,5 +58,10 @@ runghc sieve.hs
 ```
 
 **MUMPS**
-[Online Interpreter](https://tio.run/#mumps)
 
+Use this [Online Interpreter](https://tio.run/#mumps)
+
+
+**ALGOL 68**
+
+Use this [Online Interpreter](https://tio.run/#algol68g)
