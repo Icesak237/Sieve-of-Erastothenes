@@ -46,3 +46,8 @@ gforth sieve.fs
 ```bash
 fpc sieve.pas && ./sieve
 ```
+
+**Prolog**
+```bash
+swipl -s sieve.pl
+```

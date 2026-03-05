@@ -1,5 +1,4 @@
 program sieve_of_erastothenes;
-uses crt;
 
 var
     n, i, j : integer;
