@@ -22,9 +22,14 @@ sbcl --script sieve.lisp
 cobc -free -x sieve.cob -o sieve && ./sieve
 ```
 
-**Assembly**
+**Assembly x86**
 ```bash
 nasm -f elf64 sieve.asm -o sieve.o && ld sieve.o -o sieve && ./sieve
+```
+
+**Assembly RISC-V**
+```bash
+riscv64-linux-gnu-as sieve-riscv.s -o sieve.o && riscv64-linux-gnu-ld sieve.o -o sieve && qemu-riscv64 ./sieve
 ```
 
 **BASIC**
