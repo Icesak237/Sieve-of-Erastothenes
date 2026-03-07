@@ -70,3 +70,13 @@ Use this [Online Interpreter](https://tio.run/#mumps)
 **ALGOL 68**
 
 Use this [Online Interpreter](https://tio.run/#algol68g)
+
+**C**
+```bash
+clang main.c -o sieve -lm && ./sieve
+```
+
+**C++**
+```bash
+g++ -std=c++23 main.cpp -o sieve && ./sieve
+```
